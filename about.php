@@ -2,6 +2,12 @@
 	require_once("partial/header.php");
 
 ?>
+<script>
+
+
+</script>
+
+
 <body id="page-top" class="index">
 
     <!-- Navigation -->
@@ -37,17 +43,6 @@
         <!-- /.container-fluid -->
     </nav>
 
-
-
-
-
-
-
-
-
-
-
-
     <!-- Header -->
     <header>
         <div class="container">
@@ -57,10 +52,12 @@
         </div>
     </header>
 
+   
 
 
-    <div class="container">
+    <div class="container" id="container_about">
         <div class="row">
+        <div class="hideme">
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -75,8 +72,10 @@
                     <img src="img/famille2.jpg" class="img-responsive" alt="">
                 </div>
             </div>
+            </div>
         </div>
         <div class="row">
+        <div class="hideme">
         <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -92,7 +91,9 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="row">
+        <div class="hideme">
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -107,6 +108,7 @@
                 <div class="card">
                     <img src="img/imageTruck.jpg" class="img-responsive" alt="">
                 </div>
+            </div>
             </div>
         </div>
     </div>

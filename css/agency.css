@@ -838,8 +838,16 @@ body {
 }
 
 .card-img {
-  margin: 40px;
+  margin: 30px;
   display: inline-block;
+}
+
+#container_about {
+  margin-top: 50px;
+}
+
+.hideme {
+  opacity: 0;
 }
 
 
